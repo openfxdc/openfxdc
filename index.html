@@ -34,8 +34,8 @@
            
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
-                    <li><a href="./events/event01122016.html" style="color:#ffee91;" class="alter-link">Upcoming Event</a></li>
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="./events/event15122016.html" style="color:#ffee91;" class="alter-link">Upcoming Event</a></li>
+                    <li class="active"><a href="#header">Home</a></li>
                     <li><a href="#events">Events</a></li>
                     <li><a href="#team">Team</a></li>
                     <li><a href="https://goo.gl/forms/N1qyC4pI1Qd01fpR2" class="btn btn-primary" target="_blank">Join Us!</a></li>
@@ -125,11 +125,16 @@
             <div class="row mar-bot40">
                 <div class="col-md-offset-3 col-md-6">
                     <div class="section-header">
-                        <h2 class="section-heading animated" data-animation="bounceInUp">Events</h2>
-                        <p>Next Event starts in</p>
+                        <h3 class="section-heading animated" data-animation="bounceInUp">Past Events</h3>
+                        <ul>
+                            <li>
+                                Session on Angular Js Basics on Dec 1,2016 - <a href="./events/event01122016.html" class="alter-link">More Info</a>
+                            </li>
+                        </ul>
+                        <h3 style="margin-top: 10%;" class="section-heading animated" data-animation="bounceInUp">Next Event starts in</h3>
                         <div id="countdown"></div>
                         <P> Event Details: Dec 01, 2016 03:00 PM</P>
-                        <p><a href="./events/event01122016.html">More Information</a></p>
+                        <p><a href="./events/event15122016.html">More Information</a></p>
                     </div>
                 </div>
             </div>
@@ -231,7 +236,7 @@
     <a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
     <script src="js/misc.min.js"></script>
     <script type="text/javascript">
-        $('#countdown').countdown('2016/12/01 15:00:00', function(event) {
+        $('#countdown').countdown('2016/12/15 15:00:00', function(event) {
             $(this).html(event.strftime('%w weeks %d days <br /> %H:%M:%S'));
         });
     </script>

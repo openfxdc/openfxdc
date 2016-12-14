@@ -1106,3 +1106,16 @@ Media queries
 	line-height: 1.1em;
 	margin: 0px 0 60px;
 }
+
+/* Heart Icon
+--------------------------------------------- */
+
+.site-footer .icon {
+	font-size: 20px;
+}
+
+.site-footer .love .icon {
+	font-size: 12px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
